@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        TwoStack ts = new TwoStack(5);
+        /*TwoStack ts = new TwoStack(5);
         ts.push1(5);
         ts.push2(10);
         ts.push2(15);
@@ -13,6 +13,16 @@ public class Main {
                 " stack1 is " + ts.pop1());
         ts.push2(40);
         System.out.println("Popped element from" +
-                " stack2 is " + ts.pop2());
+                " stack2 is " + ts.pop2());*/
+        MinStack s = new MinStack(5);
+        s.push(3);
+        s.push(5);
+        s.getMin();
+        s.push(2);
+        s.push(1);
+        s.getMin();
+        s.pop();
+        s.getMin();
+        s.pop();
     }
 }
