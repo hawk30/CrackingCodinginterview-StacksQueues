@@ -1,5 +1,8 @@
 package com.company;
 
+import java.util.Scanner;
+import java.util.Stack;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -25,6 +28,8 @@ public class Main {
         s.getMin();
         s.pop();*/
         TowerOfHanoi t= new TowerOfHanoi();
-        t.towerOfHanoi(3,'A','B','C');
+        //t.towerOfHanoi(3,'A','B','C');
+
+
     }
 }
