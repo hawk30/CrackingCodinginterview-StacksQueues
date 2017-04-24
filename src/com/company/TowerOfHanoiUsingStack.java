@@ -7,7 +7,7 @@ import java.util.Stack;
  * Created by gaurav on 24/4/17.
  */
 public class TowerOfHanoiUsingStack {
-
+/*
     public static int N = 0;
     public static Stack<Integer>[] tower = new Stack[4];
 
@@ -47,5 +47,5 @@ public class TowerOfHanoiUsingStack {
         }
         System.out.println(" ");
 
-    }
+    }*/
 }

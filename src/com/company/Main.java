@@ -27,9 +27,15 @@ public class Main {
         s.pop();
         s.getMin();
         s.pop();*/
-        TowerOfHanoi t= new TowerOfHanoi();
+        //TowerOfHanoi t= new TowerOfHanoi();
         //t.towerOfHanoi(3,'A','B','C');
-
-
+        StackSort st= new StackSort();
+        st.input.add(34);
+        st.input.add(3);
+        st.input.add(31);
+        st.input.add(98);
+        st.input.add(92);
+        st.input.add(23);
+        st.sortedStack();
     }
 }
