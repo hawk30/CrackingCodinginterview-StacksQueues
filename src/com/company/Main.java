@@ -14,7 +14,7 @@ public class Main {
         ts.push2(40);
         System.out.println("Popped element from" +
                 " stack2 is " + ts.pop2());*/
-        MinStack s = new MinStack(5);
+       /* MinStack s = new MinStack(5);
         s.push(3);
         s.push(5);
         s.getMin();
@@ -23,6 +23,8 @@ public class Main {
         s.getMin();
         s.pop();
         s.getMin();
-        s.pop();
+        s.pop();*/
+        TowerOfHanoi t= new TowerOfHanoi();
+        t.towerOfHanoi(3,'A','B','C');
     }
 }
